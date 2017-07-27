@@ -1,0 +1,31 @@
+function Dog(name, breed) {
+  this.name = name;
+  this.breed = breed;
+  this.legs = 4;
+  this.says = function(bark) {
+    console.log(bark);
+  }
+}
+var sparky = new Dog('Parker', 'English Shepherd');
+parker.says('woof');
+var demi = new Dog('Demi', 'Border Collie');
+demi.legs = 3;
+
+
+We're going to write code, line-by-line, to create a constructor function called "Dog" and then instantiate two Dog objects for dogs named Parker and Demi.
+
+The Dog constructor function has two parameters: name and breed. In addition, all dogs will be assigned a property called "legs" that has a numeric value of 4.
+
+The Dog constructor will also have a method called "says" that takes a parameter named "bark" and then console.log()s the argument that is passed in.
+
+We will create an instance of Parker, who is an English Shepherd, and have him say 'woof'. We will also create an instance of Demi, who is a Border Collie, and changed the value of her 'legs' property to the numeric value of 3.
+
+Note that for this automatically graded quiz your input must exactly match the desired output. Keep in mind the following:
+- Conventions for capitalization and case
+- Single-quotes, always
+- Be precise with punctuation
+- Put a space after any commas
+- Use no indenting in your responses
+- Where a line of code ends in a curly brace, be sure to include it at the end
+- We will not include any lines that only contain closing curly braces
+- All names for variables, functions, properties, parameters, and methods must precisely match what is given in the prompts.
