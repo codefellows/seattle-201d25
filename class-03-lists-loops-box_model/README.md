@@ -3,13 +3,7 @@
 <a id="top"></a>
 # Today's Plan: Week 1, Wednesday Lecture
 
-##### Quiz 1 will be published after lab today and will be due at 11:59pm tomorrow (Thursday 6/16) night
-
-##### Quiz 2 will be published after lab tomorrow and will be due at 11:59pm Friday night
-
-#### Announcements
-
-- Sam and Aaron will be in a meeting during the noon hour, and also 2:30-3:00.
+##### Quiz 2 will be published after lab today and will be due at 11:59pm Friday night
 
 #### Schedule for today
 
