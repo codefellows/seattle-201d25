@@ -39,7 +39,7 @@ nav {
     background-color: rgba(0, 0, 0, 1);
     color: #00FF00;
     margin: auto;
-    /* opacity: 0.3; */
+    opacity: 0.3; 
     border-radius: 38% 20% 10% 100%;
     /* border-top-left-radius: 50%; */
     /* border-bottom-right-radius: 25%; */
