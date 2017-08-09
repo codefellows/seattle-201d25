@@ -32,7 +32,7 @@ It can be very handy to take notes and sketch things out when you are planning y
 
 ### Submitting Your Assignment
 
-- Submit the link to your GitHub repo for this project.
+- Submit the link to your pull request from your working branch for this project to `master`.
 - Add a comment to this Canvas submission with answers to the following questions.
   - How did this go, overall?
   - What observations or questions do you have about what you've learned so far?
