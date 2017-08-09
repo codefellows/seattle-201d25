@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  clear:both;
+}
+
+li.github {
+  list-style-image: url(https://assets-cdn.github.com/favicon.ico);
+}
+li.twitter {
+  list-style-image: url(http://www.cambridgema.gov/images/Twitter-icon.png);
+}
+
+nav {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    border-top-color: red;
+    border-top-width: 10px;
+    border-top-style: solid;
+    /* border-right-color: lime; */
+    /* border-right-width: 20px; */
+    /* border-right-style: dashed; */
+    border-right: cyan 42px solid;
+    border: 20px dotted yellow;
+    border-width: 40px 20px 8px 82px;
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+  border: 1px solid black;
+}
+
+.center-me {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 1);
+    color: #00FF00;
+    margin: auto;
+    /* opacity: 0.3; */
+    border-radius: 38% 20% 10% 100%;
+    /* border-top-left-radius: 50%; */
+    /* border-bottom-right-radius: 25%; */
+    overflow: hidden;
+}
