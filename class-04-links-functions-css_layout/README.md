@@ -5,7 +5,7 @@
 
 #### Quiz 1 is due at 11:59p tonight (Thursday).
 
-#### Quiz 2 will be published after lab today and will be due tomorrow (Friday) night.
+#### Quiz 2 will be due tomorrow (Friday) night.
 
 - Announcements
 
@@ -36,7 +36,7 @@ As a result of completing Day 4 of Code 201, students will:
 - JS Chapter 3: "Functions, Objects, and Methods" pp.85-99
 
 <a id="codereview"></a>
-## Quiz & Code Review
+## Code Review
 
 Today we'll take 45 minutes to look at some code and go over possible solutions to yesterday's lab assignment.
 
