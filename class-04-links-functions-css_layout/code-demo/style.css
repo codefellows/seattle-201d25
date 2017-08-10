@@ -1,0 +1,41 @@
+* {
+  border: thin solid red;
+  box-sizing: border-box;
+}
+
+strong {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(0,0,255,1);
+  position: fixed;
+  color: white;
+  right: 20%;
+}
+
+section {
+  background-color: #daa5da;
+  overflow: hidden; /* or overflow: auto */
+}
+
+img {
+  float: left;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  float: left;
+  padding: 20px;
+  background-color: orange;
+  color: white;
+  list-style-type: none;
+  width: 20%;
+  min-width: 150px;
+  font-size: 1em;
+}
