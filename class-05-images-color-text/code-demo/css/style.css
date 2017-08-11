@@ -1,0 +1,36 @@
+body {
+    /*background-image: url(../imgs/vader_water.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+div {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+p {
+    font-weight: 400;
+    font-family: arial;
+}
+
+span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:white;
+}
+span:hover {
+  background-color: black;
+}
+
+#vader {
+    width: 300px;
+    height: 100px;
+    float: right;
+    background-color: rgb(163, 189, 249);
+    margin-left: 40px;
+}
+
+
+
+/*div {
+  width: 25%;
+}*/
