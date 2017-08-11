@@ -10,7 +10,7 @@ One of them is a weekend project: put finishing touches on your About Me project
 
 ### First Part: In lab today
 
-Today in lab you will create a new GitHub repo, and create solutions to some little code problems.
+Today in lab you will create a new GitHub repo, not inside of any others, and create solutions to some little code problems.
 
 **The detailed lab instructions are inside app.js, but be sure to follow instructions carefully.**
 
@@ -24,7 +24,7 @@ Here are a couple of things to keep in mind:
 ---
 ### HTML and JS setup
 
-You are being given starter code for today, in the index.html and app.js files inside of this directory. Create a new repo called ***lab-5*** and then copy/paste the adjacent code into the HTML and JS files that you'll also create and wire up.
+You are being given starter code for today, in the index.html and app.js files inside of this directory. Create a new repo, external to this one, called ***lab-5*** and then copy/paste the adjacent code into the HTML and JS files that you'll also create and wire up.
 
 The success of your code will be determined by whether it passes tests that are in tests.js file. You do not need to do anything with tests.js, though you should definitely take a look at it to see how it works.
 
