@@ -18,7 +18,7 @@ You will also simultaneously be working with more specific style and design conc
  - Working on a non-master branch, with regular commit history
  - Good use of Object Literals **(no constructors allowed today)**; one for each store model; properties/values and methods are correctly constructed and given meaningful names
  - Main page meets requirements of the problem domain
- - Stores are correctly rendering as lists to the main page
+ - Stores are correctly rendering as lists to the sales page
 
 ### User Stories (Stretch... only after completing everything above)
  - As a developer, I want to make some headway on the public-facing page for the business
