@@ -1,0 +1,25 @@
+/** {
+  border: thin solid red;
+}*/
+
+#change-me {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(3n) {
+  background-color: #DDD;
+}
+
+td:nth-child(even) {
+  background-color: purple;
+  color: white;
+}
+
+/*
+:nth-child is a type of "pseudo-selector"
+:nth-child(even) - selects every even-numbered thing of this type of object
+:nth-child(odd) - selects every odd-numbered thing
+:nth-child(2n) - 2, 4, 6, 8...
+:nth-child(3n) - 3, 6, 9, 12...
+*/
