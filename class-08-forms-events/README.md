@@ -14,13 +14,6 @@
 
 ![ermahgerd.jpg](ermahgerd.jpg)
 
-- One-on-ones for today:
-  - 2:30 Gabe
-  - 2:45 Pope Gregory
-  - 3:00 Ivette
-  - 3:15 Joseph and the Amazing Technicolor Dreamcoat
-  - 3:30 Daniel
-
 ---
 
 - [Code Review](#codereview)
