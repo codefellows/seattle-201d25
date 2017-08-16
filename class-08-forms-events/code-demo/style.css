@@ -1,6 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
 .post {
   border: thin solid black;
   margin: 10px auto;
   min-width: 300px;
   width: 50%;
+}
+
+.field-body {
+  width: 200px;
+  height: 100px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 20px;
+}
+input[type="submit"]:hover {
+  background-color: #FFF;
+  color: black;
+  border: thin solid black;
+}
+
+#button {
+  border-radius: 100%;
+  background-color: red;
+  color: white;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
 }

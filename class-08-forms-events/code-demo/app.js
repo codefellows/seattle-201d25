@@ -41,19 +41,56 @@ function Post(title, author, date, body){
     postArticle.appendChild(postBody);
   };
 
-  this.confirmPost = function(){
-    var yesNo = confirm('You are about to write this: ' + this.body);
-    if (yesNo === true) {
-      this.renderToHTML();
-    }
-  };
-
-  this.confirmPost();
+  // this.confirmPost = function(){
+  //   var yesNo = confirm('You are about to write this: ' + this.body);
+  //   if (yesNo === true) {
+  //     this.renderToHTML();
+  //   }
+  // };
+  //
+  // this.confirmPost();
+  // this.renderToHTML();
 }
 
 new Post('The first one', 'Me', 'August 16, 2017', 'Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that\'s what you see at a toy store. And you must think you\'re in a toy store, because you\'re here shopping for an infant named Jeb.');
 
 new Post('Another post', 'Dave', 'August 17, 2017', 'Throw down all the stuff in the kitchen purr or unwrap toilet paper, but hiss at vacuum cleaner and fooled again thinking the dog likes me. Refuse to drink water except out of someone\'s glass sweet beast, or hiss and stare at nothing then run suddenly away climb leg shake treat bag, or flee in terror at cucumber discovered on floor. Need to chase tail rub face on everything scream for no reason at 4 am so cat dog hate mouse eat string barf pillow no baths hate everything. I am the best meowing chowing and wowing hiss and stare at nothing then run suddenly away or groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked. Chase imaginary bugs wake up human for food at 4am.');
+
+// this next bit is about events
+
+var submit = document.getElementById('submit');
+// submit.addEventListener('mouseover', function(){
+//   alert('hovered!');
+// });
+function doAThing(event){
+  var theElement = event.target;
+  console.log(theElement);
+}
+submit.addEventListener('mouseover', doAThing);
+
+var userInput = [];
+function logLetters(event){
+  var thisField = event.target;
+  userInput.push(event.key);
+  thisField.value = userInput.join('').toUpperCase();
+}
+var author = document.getElementById('author');
+//author.addEventListener('keypress', logLetters);
+
+function harvestAndPost(event){
+  event.preventDefault();
+  var post = new Post();
+  // "this" applies to the element where the event was triggered.
+  post.title = this.elements['title'].value;
+  post.author = this.elements['author'].value;
+  post.date = this.elements['date'].value;
+  post.body = this.elements['postBody'].value;
+  post.renderToHTML();
+  this.style = 'border: thin solid red;';
+  // this.reset();
+}
+var form = document.getElementById('theForm');
+form.addEventListener('submit', harvestAndPost);
 
 /*
 Mike: being a blog, I want each new post to be at the top of my page.
