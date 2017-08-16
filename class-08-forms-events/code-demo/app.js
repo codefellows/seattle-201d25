@@ -22,24 +22,40 @@ function Post(title, author, date, body){
     // accomplishes the same as below
     postArticle.className = 'post';
     body.appendChild(postArticle);
+    // var postArticle = createAndAppend('article', 'post', '', body);
 
     // create the title and append it to the article
     var h2 = document.createElement('h2');
     h2.innerText = this.title;
     postArticle.appendChild(h2);
+    // createAndAppend('h2', '', this.title, postArticle);
 
     // create the author_date p-tag and append it to the article
     var authorDate = document.createElement('p');
     authorDate.className = 'author_date';
     authorDate.innerText = 'By ' + this.author + ' on ' + this.date;
     postArticle.appendChild(authorDate);
+    // createAndAppend('p', 'author_date', 'By ' + this.author + ' on ' + this.date, postArticle);
 
     // create the body p-tag and append it to the article
     var postBody = document.createElement('p');
     postBody.className = 'post-body';
     postBody.innerText = this.body;
     postArticle.appendChild(postBody);
+    // createAndAppend('p', 'post-body', this.body, postArticle);
   };
+
+  function createAndAppend(toCreate, theClass, theContent, theParent){
+    var theElement = document.createElement(toCreate);
+    if (theClass && theClass !== ''){
+      theElement.className = theClass;
+    }
+    if (theContent && theContent !== ''){
+      theElement.innerText = theContent;
+    }
+    theParent.appendChild(theElement);
+    return theElement;
+  }
 
   // this.confirmPost = function(){
   //   var yesNo = confirm('You are about to write this: ' + this.body);
