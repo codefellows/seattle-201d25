@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Class 09-CSS for Things & Stuff</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul>
+      <li>1</li>
+      <li id="this-one">2</li>
+      <li>3</li>
+    </ul>
+    <form id="theForm">
+      <fieldset>
+        <legend>Post Form</legend>
+  <table>
+    <tr>
+      <td><label for="title">Post Title: </label></td>
+      <td><input type="text" name="title" class="field" placeholder="Write your title here"/></td>
+    </tr>
+    <tr>
+      <td><label for="author">Who Dunnit: </label></td>
+      <td><input type="text" name="author" class="field" placeholder="Write your name here" required id="author" /></td>
+    </tr>
+    <tr>
+      <td><label for="password">Sekret: </label></td>
+      <td><input type="password" name="password" class="field" /></td>
+    </tr>
+    <tr>
+      <td><label for="radio">Choose one of these:</label></td>
+      <td>
+        <input type="radio" name="choice" value="red" />Red
+        <input type="radio" name="choice" value="blue" checked />Blue
+        <input type="radio" name="choice" value="green" />Green
+      </td>
+    </tr>
+    <tr>
+      <td><label for="theCheckbox">Choose as many as you like:</label></td>
+      <td>
+        <input type="checkbox" name="theCheckbox" value="steak" />Steak
+        <input type="checkbox" name="theCheckbox" value="eggs" checked disabled />Eggs
+        <input type="checkbox" name="theCheckbox" value="salad" />Salad
+      </td>
+    </tr>
+    <tr>
+      <td><label for="dropdown">Choose one:</label></td>
+      <td>
+        <select name="dropdown">
+          <option value="" disabled>---Select One of These---</option>
+          <option value="foo">Foo</option>
+          <option value="bar">Bar</option>
+          <option value="bang">Bang</option>
+          <option value="bash" disabled>Bash</option>
+        </select>
+        *
+      </td>
+    </tr>
+    <tr>
+      <td><label for="multibox">Choose one or more:</label></td>
+      <td>
+        <select name="multibox" multiple>
+          <option value="" selected>---Select One or More of These---</option>
+          <option value="foo">Foo</option>
+          <option value="bar">Bar</option>
+          <option value="bang">Bang</option>
+          <option value="bash" disabled>Bash</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="date">Post Date: </label></td>
+      <td><input type="date" name="date" class="field" placeholder="Write your date here" /></td>
+    </tr>
+    <tr>
+      <td><label for="postBody">Post Body: </label></td>
+      <td>
+        <textarea name="postBody" class="field-body" placeholder="Write your post here"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td style="text-align: right;">
+        <input type="submit" value="Add a New Post!" id="submit" />
+      </td>
+    </tr>
+  </table>
+</fieldset>
+</form>
+    <table>
+      <tr>
+        <td>1</td><td>2</td><td>3</td>
+      </tr>
+      <tr>
+        <td>4</td><td></td><td>6</td>
+      </tr>
+    </table>
+  </body>
+</html>

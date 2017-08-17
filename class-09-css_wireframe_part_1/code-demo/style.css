@@ -1,0 +1,41 @@
+body {
+  cursor: url(http://www.iconninja.com/files/616/192/971/play-pokemon-pokeball-go-game-icon.png), auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#this-one {
+  list-style-type: square;
+}
+
+table {
+  empty-cells: hide;
+  /*border-spacing: 20px;*/
+  border-collapse: collapse;
+}
+td {
+  border: 5px solid black;
+  padding: 20px;
+}
+
+input[name="title"] {
+  color: #FFF;
+  background-color: black;
+  width: 100%;
+  font-size: 20px;
+  padding: 21px;
+  box-sizing: border-box;
+  border: 5px solid #00FF00;
+  border-radius: 12px;
+}
+input[name="title"]:focus {
+  outline: 5px solid red;
+}
+
+input[name="password"] {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQESppbsC5PIvfyc5WqGkaWEiHdYCykdmt4oEa0T7FyB-uLYZ8lZA");
+  background-repeat: no-repeat;
+  padding: 20px;
+}
