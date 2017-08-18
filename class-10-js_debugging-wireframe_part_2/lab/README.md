@@ -1,5 +1,5 @@
 # Assignment Overview: Lab for Class 10
-### DUE: Mon 7/24 at 8:59a
+### DUE: Friday 8/18 at 5:59p
 
 ## Chocolate Pizza: Create a webpage from a provided design comp
 
