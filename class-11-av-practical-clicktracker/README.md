@@ -23,6 +23,14 @@
 - [Assignment overview](#code)
 
 ---
+- Recent 201 final projects? Here's links to a few to peruse:
+	- [Slash Whooo?](http://wohlfea.github.io/cup-game)
+	- [Echelon.JS](https://flegald.github.io/Echelon.JS)
+	- [Note Fellows](https://clee46.github.io/note-fellows)
+	- [Equip](http://heyduckd.github.io/equip/)
+	- [Bro Nacho](http://bronacho.com)
+	- [Welcome to Seattle](http://peterbreen.github.io/welcome-to-seattle/)
+---
 
 ## Readings
 
