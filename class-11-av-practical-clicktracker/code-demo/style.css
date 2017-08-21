@@ -1,0 +1,13 @@
+img {
+  display: block;
+  margin: auto;
+}
+
+.half-size {
+  width: 50%;
+}
+
+.content {
+  background-image: url("https://orig07.deviantart.net/0606/f/2010/002/f/3/laughing_man_logo_gif_by_sushiman0001.gif");
+  background-repeat: no-repeat;
+}
