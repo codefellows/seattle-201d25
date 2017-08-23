@@ -1,5 +1,8 @@
 'use strict';
 
+var totalClicks = 0;
+var maxClicks = 3;
+
 // make a constructor function for all of the items we're selling
 function Item (name, filePath, id) {
   this.name = name;
@@ -62,14 +65,38 @@ for (var i = 0; i < document.getElementsByClassName('clickable').length; i++) {
 // increment up by 1 the value of timesClicked for the item that owns the image that was clicked
 // it then kicks off the makeThreeImages function
 function onClick (event){
-  // for every item in my allItems array, check if one of those items is the one clicked
-  // then increase that one item's click counter by one
+    // for every item in my allItems array, check if one of those items is the one clicked
+    // then increase that one item's click counter by one
+    // allItems[parseInt(event.target.getAttribute('itemIdx'))].timesClicked++
+
+    // for (var i = 0; i < allItems.length; i++) {
+    //   if (allItems[i].id === event.target.getAttribute('theDataField')) {
+    //     debugger;
+    //   }
+    // }
   var itemIdx = parseInt(event.target.getAttribute('itemIdx'));
   var itemIWant = allItems[itemIdx];
-  console.log(itemIWant);
-  // for (var i = 0; i < allItems.length; i++) {
-  //   if (allItems[i].id === event.target.getAttribute('theDataField')) {
-  //     debugger;
-  //   }
-  // }
+  itemIWant.timesClicked++;
+  makeThreeImages();
+  totalClicks++;
+  // if i'm at my max clicks, remove the event listeners and show the list
+  if (totalClicks === maxClicks) {
+    // otherwise remove the event listeners from all the image tags.
+    for (var i = 0; i < document.getElementsByClassName('clickable').length; i++) {
+      var image = document.getElementById('image-' + (i + 1));
+      image.removeEventListener('click', onClick);
+    }
+
+    // when the user is done clicking, list results of the click tracker.
+    var list = document.getElementById('list');
+    for (var j = 0; j < allItems.length; j++) {
+      // for each item in the allItems array, show how many times each one was clicked.
+      // create the list items to go into the list
+      var li = document.createElement('li');
+      // insert text within each list item
+      li.innerText = allItems[j].name + ' was clicked ' + allItems[j].timesClicked + ' times';
+      // append the list items to "list"
+      list.appendChild(li);
+    }
+  }
 }
