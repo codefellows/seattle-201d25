@@ -14,7 +14,7 @@ For today's lab, part of your assignment is to help get your partner's project c
 
 ### New Bus Mall Technical Goal
 
-- Give your BusMall app persistence by using local storage to store your voting data! The goal is to have all of your data persist through a page refresh or through completely closing the browser. That way, the more time you go through the sets of 25 votes, the more the data accumulates and you get a more reliable understanding of which items are popular.
+- Give your BusMall app persistence by using local storage to store your voting and viewing data! The goal is to have all of your data persist through a page refresh or through completely closing the browser. That way, the more time you go through the sets of 25 votes, the more the data accumulates and you get a more reliable understanding of which items are popular.
 
 ## Individual Work
 
