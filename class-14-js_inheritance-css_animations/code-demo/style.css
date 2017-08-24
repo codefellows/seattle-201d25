@@ -1,0 +1,22 @@
+#changeMe {
+  background-color: purple;
+  width: 300px;
+  height: 300px;
+  /*transform: scale(2) translate(200px, 100px);*/
+  /*transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: linear;*/
+  transition-property: background-color, border-radius;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+#changeMe:hover {
+  /*transform: scale(2, 0.5) translate(400px, 100px) rotate(1080deg);*/
+  background-color: #FF0000;
+  border-radius: 100%;
+}
+#changeMe p {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}

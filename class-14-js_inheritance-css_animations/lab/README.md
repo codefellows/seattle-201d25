@@ -31,4 +31,4 @@ There's nothing really new here, just extensions and adaptations of previous thi
 - You and your partner should plan out how you want to collaboratively attack the problem: do you each want to build a HTML page and then pair program the JS? Or does one person do both HTML pages while another gets the JS going? It's up to you.
 - We'll discuss more process in class.
 
-### *Remember to submit a link to your last pull request on Canvas!*
+### *Remember to submit a link to your repo to Canvas!*
