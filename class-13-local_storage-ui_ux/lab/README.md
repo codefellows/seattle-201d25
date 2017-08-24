@@ -18,7 +18,7 @@ For today's lab, part of your assignment is to help get your partner's project c
 
 ## Individual Work
 
-Be sure to go back and re-read [the original problem domain from Class 11](https://github.com/codefellows/seattle-201d17/tree/master/class-11-av-practical-clicktracker/lab). Today we'll be focusing on implementing all of the little pieces that have not been finished so far. Make sure you are not forgetting anything.
+Be sure to go back and re-read [the original problem domain from Class 11](https://github.com/codefellows/seattle-201d25/tree/master/class-11-av-practical-clicktracker/lab). Today we'll be focusing on implementing all of the little pieces that have not been finished so far. Make sure you are not forgetting anything.
 
 ##### Hmmm...
 
