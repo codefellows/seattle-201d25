@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.maybe-big{
+  float: none;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  border: 5px solid yellow;
+  color: white;
+  overflow: hidden;
+}
+
+@media (min-width: 500px) {
+  .maybe-big {
+    float: left;
+    width: 33%;
+  }
+}
