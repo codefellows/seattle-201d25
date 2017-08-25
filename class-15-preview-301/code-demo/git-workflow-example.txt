@@ -1,0 +1,15 @@
+Nick & Ted's Excellent Workflow
+
+1. Nick works on a branch called 'new-work'
+2. Ted works on a branch called 'ted-time'
+3. Nick finishes his work and pushes his branch to github
+4. Nick rings the "merge party" bell so Ted knows to stop working and start the merge party
+5. Ted checks out master on his computer, so does Nick.
+6. Nick opens a pull request from 'new-work' -> 'master'
+7. Ted reviews the pull request to make sure that the changes are good changes (i.e. not broken)
+8. If the pull request is good, Ted merges the branch into master. (If not, he says "you gotta fix this stuff")
+9. Nick and Ted both do "git pull origin master" on their local machines
+10. Ted merges "master" into his "ted-time" branch so that his branch has the updates from Nick's work.
+  10 a. git checkout ted-time
+  10 b. git merge master
+11. They both continue working.
