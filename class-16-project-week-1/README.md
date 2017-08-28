@@ -16,28 +16,14 @@ Your team must adhere to the following requirements.
 **Process:**
 
 Here's the process that we'll be using for project week.
-1. On the first day of project week, by noon, your team must submit a proposal to the instructional staff.
-2. During project week, your team must work on-campus so we can help whenever your team is stuck.
-3. On the last day of project week, your team must present your project in front of the class.
+1. On the first day of project week, before noon you should have a solid plan of what you're going to be working on and who will work on what.
+2. By Tuesday, you should have the first version of your site deployed to `gh-pages`. It doesn't have to resemble anything close to a complete product.
+3. During project week, your team must work on-campus so we can help whenever your team is stuck.
+4. On the last day of project week, your team must present your project in the event space.
 
 
 ### Project proposals
 
-1. On the first day of project week, your team must submit a proposal to an instructor with the following information:
-
- - Your team's name (if desired)
- - Your team's members
- - Your project's pitch. (What is the problem statement and what are the benefits of your solution? Read more about these [here](https://www.bidsketch.com/proposal-resources/proposal-templates/web-design-proposal-template).)
- - A diagram of relevant details from your project's domain model
- - A few wireframe sketches of your project's pages
-
- **TIP:** Use pencil and paper to diagram and sketch.
-
-   Proposals, written or electronic, as per the project description, are due for review with the instruction team. First come, first served!
-
-  **Ideally done by 12pm today.**
-
-2.
 Here are some tips on how to organize your team during the launch phase.
 
  * Elect a Launch Driver who will be responsible for the following:
